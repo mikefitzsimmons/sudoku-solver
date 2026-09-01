@@ -33,7 +33,7 @@ Verification
 - The suite verifies solving correctness for a standard Sudoku, already-solved board, unsolvable board, and a board requiring backtracking.
 - The trace includes assignment and backtrack reasons, and the solver reports impossible states cleanly.
 - Final verification command:
-  "C:\Users\mikee\AppData\Local\Programs\Python\Python312\python.exe" -m pytest -q
+  python -m pytest -q
 
 Decisions made
 - Python built-ins such as sets, tuples, and lists are used for readability and speed.
